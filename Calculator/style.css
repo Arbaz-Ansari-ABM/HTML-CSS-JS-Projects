@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/generated.jpg);
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 1.5rem;
+    background-color: rgba(255, 0, 0, 0.443);
+    height: 40rem;
+    width: 30rem;
+}
+
+.display {
+    font-size: 30px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(211, 211, 211, 0.682);
+    height: 8rem;
+    width: 22rem;
+}
+
+.functions {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(98, 98, 98);
+    height: 26rem;
+    width: 26rem;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    height: 5.2rem;
+    width: 26rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.box1-btn-AC {
+    margin: 4.5px;
+    font-size: 25px;
+    height: 4.5rem;
+    width: 12rem;
+    border-radius: 1rem;
+}
+
+.box1-btn {
+    margin: 4.5px;
+    font-size: 25px;
+    height: 4.5rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.cross-icon {
+    background-color: orange;
+}
